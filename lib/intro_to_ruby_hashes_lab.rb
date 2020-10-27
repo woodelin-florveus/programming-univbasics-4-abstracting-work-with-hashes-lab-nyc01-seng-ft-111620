@@ -12,9 +12,9 @@ def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
 
   if hash[key]
-    hash[key] +=1 
+    hash[key] +=1
   else
-    hash[key] += 1
+    hash[key] = 1
   end
 
   # if the provided key is not present in the hash, add it and assign it to the value of 1
